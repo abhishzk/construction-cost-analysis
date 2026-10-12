@@ -1,0 +1,9 @@
+---
+title: "ICC Cost Analysis"
+output: html_document
+---
+
+```{r run, echo=TRUE, message=FALSE, warning=FALSE, fig.width=7, fig.height=5}
+View <- function(...) invisible(NULL)  # View() needs a GUI
+source("ICC-cost-analysis.R", echo = TRUE, max.deparse.length = Inf)
+```
